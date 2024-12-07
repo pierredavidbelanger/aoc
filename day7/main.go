@@ -114,11 +114,10 @@ func testEquationRecursive(possibleOps []rune, expected int, numbers []int, ops 
 		}
 		return total == expected
 	}
+	ops = append(ops, ' ')
 	for _, possibleOp := range possibleOps {
-		nops := make([]rune, 0)
-		nops = append(nops, ops...)
-		nops = append(nops, possibleOp)
-		if testEquationRecursive(possibleOps, expected, numbers, nops) {
+		ops[len(ops)-1] = possibleOp
+		if testEquationRecursive(possibleOps, expected, numbers, ops) {
 			return true
 		}
 	}
