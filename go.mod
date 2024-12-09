@@ -1,1 +1,1 @@
-module pjer.ca/aoc2024
+module pjer.ca/aoc

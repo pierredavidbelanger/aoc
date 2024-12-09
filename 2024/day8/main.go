@@ -14,7 +14,7 @@ type Position struct {
 
 func main() {
 
-	day := "day8"
+	day := "2024/day8"
 	part1ex := part1(parseInput(day + "/input-ex.txt"))
 	part1exExpected := 14
 	log.Printf("part1 (example): %d\n", part1ex)

@@ -14,7 +14,7 @@ func main() {
 }
 
 func getInput1() string {
-	data, err := os.ReadFile("day3/input.txt")
+	data, err := os.ReadFile("2024/day3/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -22,7 +22,7 @@ func getInput1() string {
 }
 
 func getInput2() string {
-	data, err := os.ReadFile("day3/input.txt")
+	data, err := os.ReadFile("2024/day3/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

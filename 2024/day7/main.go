@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	day := "day7"
+	day := "2024/day7"
 	part1ex := part1(parseInput(day + "/input-ex.txt"))
 	part1exExpected := 3749
 	log.Printf("part1 (example): %d\n", part1ex)

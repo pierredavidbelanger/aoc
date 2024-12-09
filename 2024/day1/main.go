@@ -19,7 +19,7 @@ func main() {
 
 func parseLists() ([]int, []int) {
 
-	inputFile, err := os.Open("day1/input.txt")
+	inputFile, err := os.Open("2024/day1/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

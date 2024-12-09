@@ -1,3 +1,4 @@
-# aoc2024
+# Advent Of Code
 
-My solutions for https://adventofcode.com/2024
+My solutions for https://adventofcode.com
+

@@ -17,7 +17,7 @@ func main() {
 
 func parseReports() [][]int {
 
-	inputFile, err := os.Open("day2/input.txt")
+	inputFile, err := os.Open("2024/day2/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

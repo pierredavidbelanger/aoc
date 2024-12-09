@@ -18,7 +18,7 @@ func parseInput() [][]rune {
 
 	wordSearch := make([][]rune, 0)
 
-	inputFile, err := os.Open("day4/input.txt")
+	inputFile, err := os.Open("2024/day4/input.txt")
 	if err != nil {
 		log.Fatal(err)
 	}

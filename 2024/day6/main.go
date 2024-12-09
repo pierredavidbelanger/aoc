@@ -54,22 +54,22 @@ func (p Position) Ahead() Position {
 
 func main() {
 
-	part1ex := part1(parsePlan("day6/input-ex.txt"))
+	part1ex := part1(parsePlan("2024/day6/input-ex.txt"))
 	log.Printf("distinct positions (example): %d\n", part1ex)
 	if part1ex != 41 {
 		log.Fatalf("expecting %d distinct positions\n", 41)
 	}
 
-	part1puzzle := part1(parsePlan("day6/input.txt"))
+	part1puzzle := part1(parsePlan("2024/day6/input.txt"))
 	log.Printf("distinct positions (puzzle): %d\n", part1puzzle)
 
-	part2ex := part2(parsePlan("day6/input-ex.txt"))
+	part2ex := part2(parsePlan("2024/day6/input-ex.txt"))
 	log.Printf("possible loops (example): %d\n", part2ex)
 	if part2ex != 6 {
 		log.Fatalf("expecting %d possible loops\n", 6)
 	}
 
-	part2puzzle := part2(parsePlan("day6/input.txt"))
+	part2puzzle := part2(parsePlan("2024/day6/input.txt"))
 	log.Printf("possible loops (puzzle): %d\n", part2puzzle)
 }
 
